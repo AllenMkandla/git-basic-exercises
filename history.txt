@@ -1,0 +1,440 @@
+    1  ls
+    2  ls/
+    3  ls /
+    4  pwd
+    5  mkdir learning_unix
+    6  ls
+    7  cd learning_unix
+    8  mkdir outer
+    9  cd outer
+   10  mkdir inner
+   11  cd inner/
+   12  cd /home/learner/
+   13  cd /home/allen/
+   14  cd learning_unix
+   15  cd ..
+   16  cd /
+   17  cd ~
+   18  pwd
+   19  cd
+   20  pwd
+   21  cd /
+   22  pwd
+   23  cd ~/learning_unix
+   24  cd ~
+   25  pwd
+   26  cd /
+   27  pwd
+   28  cd /~
+   29  cd~/
+   30  cd ~/
+   31  pwd
+   32  cd /
+   33  pwd
+   34  ls ../../
+   35  ls -l /home
+   36  ls -R /learning_unix
+   37  ls -l -t -r /home
+   38  ls -lh
+   39  man ls
+   40  rmdir
+   41  rmdir inner/
+   42  cd~
+   43  cd ~
+   44  cd learning_unix
+   45  cd ~learning_unix/outer/
+   46  cd ..
+   47  rmdir outer/ 
+   48  pwd 
+   49  cd ~
+   50  pwd
+   51  cd learning _unix
+   52  cd learning_unix
+   53  history
+   54  touch heaven.txt
+   55  mkdir temp
+   56  mv heavean.txt temp/
+   57  mv heaven.txt temp/
+   58  mv earth.txt temp/
+   59  ls
+   60  ls temp/
+   61  mv *.txt temp/
+   62  mv *.txt learning_unix
+   63  cd temp
+   64  mv *txt learning_unix
+   65  cd temp/
+   66  cd learning _unix
+   67  cd learning_unix
+   68  pwd
+   69  cd ..
+   70  touch rags
+   71  ls 
+   72  rmdir outer/ 
+   73  rmdir outer
+   74  ls
+   75  mv rags temp/riches
+   76  ls temp/
+   77  mv temp/richies temp/rags
+   78  mkdir temp2
+   79  mv temp 2 temp
+   80  mv temp2 temp
+   81  ls temp/
+   82  mkdir temp3
+   83  mv temp3 learning_unix
+   84  cd /tmp
+   85  mv temp3 temp2
+   86  cd learning_unix
+   87  cd /learning_unix
+   88  cd learning_unix
+   89  cd temp
+   90  ls
+   91  rm -i earth.txt heaven.txtriches
+   92  rm -i heaven.txt richies
+   93  rm -i riches 
+   94  touch file1
+   95  cp file1 file2
+   96  ls
+   97  touch ~/file3
+   98  ls ~
+   99  cp ~/file3 . 
+  100  ls
+  101  rm temp2
+  102  rm file*
+  103  cd learning_unix
+  104  ls
+  105  cd learning_unix
+  106  cd /learning_unix
+  107  cd /
+  108  pwd
+  109  ls
+  110  cd tmp
+  111  ls
+  112  cd ../
+  113  ls
+  114  cd home
+  115  ls
+  116  cd allen
+  117  ls
+  118  cd learning_unix
+  119  echo "Call me Ishmael."
+  120  echo "Call me Ishamael." > opening_lines.txt
+  121  ls
+  122  less opening_lines.txt
+  123  echo "The promises were over." >> Opening lines.txt
+  124  cat openung_lines.txt
+  125  cat opening_lines.txt
+  126  cat opening_lines.txt > file_copy.txt
+  127  rm file_copy.txt
+  128  ls 
+  129  ls -l 
+  130  wc opening_lines.txt
+  131  nano opening_lines.txt
+  132  echo $USER
+  133  echo $HOME
+  134  echo $PATH
+  135  nano opening_lines.txt
+  136  cd curl https://raw.githubusercontent.com/Blahah/command_line_bootcamp/master/testfiles/grades.txt > grades.txt
+  137  cd
+  138  curl https://raw.githubusercontent.com/Blahah/command_line_bootcamp/master/testfiles/grades.txt > grades.txt
+  139  sudo apt install curl
+  140  cd learning_unix
+  141  grep was opening_lines.txt | wc -c
+  142  ls
+  143  rm file3
+  144  rm grades.txt
+  145  ls
+  146  ls
+  147  pwd
+  148  mkdir workspace
+  149  cd workspace
+  150  ls
+  151  touch README.md
+  152  cp README.md CHANGELOG.md
+  153  ls
+  154  touch exercise.md
+  155  mv exercise.md /tmp
+  156  ls /tmp
+  157  locate tmp
+  158  mv exercise.md /workspace
+  159  cd temp
+  160  cd /temp
+  161  ls
+  162  rm exercise.md
+  163  ls
+  164  cd workspace
+  165  ls
+  166  touch exercise.md
+  167  mv exercise.md ~/.. /workspace /tmp
+  168  mv exercise.md /tmp
+  169  rm /tmp/exercise.md
+  170  touch umuzi.md recruits.md cohort.md
+  171  ls
+  172  echo cohort.md
+  173  echo cohort.md "I am Allen Mkandla from around"
+  174  echo recruits.md "i am currently employed by umuzi"
+  175  echo umuzi.md "My first task as an umuzi employee was quite fun and eye opening" 
+  176  cat cohort.md recruits.md umuzi.md
+  177  cat cohort.md
+  178  nano cohort.md
+  179  echo umuzi.md "My first task as an umuzi employee was quite fun and eye opening" 
+  180  cd workspace
+  181  ls
+  182  nano cohort.md
+  183  nano recruits.md
+  184  nano umuzi.md
+  185  cat cohort.md recruits.md umuzi.md 
+  186  cat cohort.md recruits.md umuzi.md > summary.md
+  187  cat summary.md
+  188  echo >>  "The End"
+  189  cat summary.md
+  190  echo >> summary.md "The End"
+  191  cat summary.md
+  192  locate umuzi
+  193  locate umuzi.md
+  194  sudoupdatedb
+  195  sudo updatedb
+  196  locate umuzi
+  197  locate umuzi > search_results.md
+  198  cat search_results
+  199  cat search_results.md
+  200  cd Documents
+  201  cd
+  202  cd Documents
+  203  touch pad.md
+  204  cd Desktop
+  205  cd
+  206  cd Desktop
+  207  mkdir work
+  208  cd Desk
+  209  cd
+  210  cd Desktop
+  211  cp ../Documents/pad.md pad_copy.md
+  212  locate updatedb
+  213  cd -
+  214  locate pad_copy
+  215  locate pad_copy.md
+  216  locate updatedb
+  217  locate pad_co
+  218  sudo updatedb
+  219  locate pad_copy
+  220  find /home *.pdf
+  221  locate pad_copy.md
+  222  find /home *.pdf
+  223  find -name *.pdf
+  224  find -name *.pdf > Documents
+  225  find -name *.pdf > pdf_results
+  226  cat pdf_results
+  227  find . -maxdepth 1 -newermt "29-10-2019"
+  228  find . -maxdepth 1 -newermt "29/10/2019"
+  229  find . -maxdepth 1 -newermt "29/10/19"
+  230  find . -maxdepth 1 -newermt "10/29/19"
+  231  nano 
+  232  cat my_bio.md
+  233  mkdir my_files
+  234  mv my_bio my_files
+  235  mv my_bio.md my_files
+  236  mkdir git-basic-exercises
+  237  cd git-basic-exercises/
+  238  ls -a
+  239  git init
+  240  sudo apt-get install git
+  241  sudo apt update
+  242  cd git-basic-exercises
+  243  ls -a 
+  244  git init
+  245  sudo apt install git
+  246  ls -a
+  247  git init
+  248  touch README.md
+  249  ls -a
+  250  git status
+  251  git log
+  252  git add README.md
+  253  git log
+  254  git status
+  255  git commit -m "initial commit"
+  256  git config --global user.email  "allen.mkandla@umuzi.org"
+  257  git config --global user.name "Allen"
+  258  git commit -m "initial commit" 
+  259  git log
+  260  nano README.md
+  261  cat README.md
+  262  git status
+  263  git commit -m "second commit"
+  264  nano README.md
+  265  "fg"
+  266  git commit -m "third commit"
+  267  cat README.md 
+  268  git log
+  269  git checkout 
+  270  cat README.md
+  271  cd git-basic-exercises/
+  272  git init
+  273  git log
+  274  git add README.md
+  275  git log
+  276  git status
+  277  git commit -m "initial commit" 
+  278  git log
+  279  nano README>md
+  280  cd git-basic-exercises/
+  281  ls
+  282  rm md
+  283  rm README.save
+  284  rm README.save.1
+  285  ls
+  286  git init
+  287  git status
+  288  git log
+  289  git add README.md
+  290  git status
+  291  git log
+  292  ls
+  293  git commit -m "initial commit" 
+  294  nano README.md
+  295  git commit -m "second commit"
+  296  nano README.md
+  297  git commit -m "second commit"
+  298  git log
+  299  git add README.md
+  300  git commit -m "second commit"
+  301  nano README.md
+  302  git commit -m "third commit"
+  303  cat README.md 
+  304  git add README.md 
+  305  git commit -m "third commit"
+  306  git log
+  307  git checkout  c84fc965c82c0b614b63cce56ccbab0d66f4483e
+  308  cat README.md
+  309  git checkout master
+  310  cat README.md 
+  311  git branch
+  312  git checkout -b milkshake-flavours
+  313  git branch
+  314  nano milkshakes.md
+  315  git status
+  316  git commit -m "added iniial flavours"
+  317  git add milkshakes.md
+  318  git commit -m "added iniial flavours"
+  319  git status
+  320  git log
+  321  git checkout
+  322  ls
+  323  git initialise
+  324  git init
+  325  git branch
+  326  git master
+  327  git checkout master
+  328  git branch history
+  329  git log
+  330  history > history.txt
+  331  git commit -m "added history" 
+  332  git add history.txt
+  333  git commit -m "added history" 
+  334  git log
+  335  git checkout master
+  336  nano README.md
+  337  git add README.md
+  338  git commit -m "random readme changes"
+  339  git checkout milkshake-flavours 
+  340  git log
+  341  ls
+  342  nano README.md
+  343  git add README.md 
+  344  git commit -m "random readme changes"
+  345  git branch
+  346  git branch history
+  347  git checkout history
+  348  cat README.md 
+  349  rm README.md echo "booya" >README.md 
+  350  rm README.md echo "booya" > README.md 
+  351  rm README.md
+  352  ls
+  353  echo "booya" > README.md
+  354  git add README.md
+  355  git commit -m "rewrote readme"
+  356  git checkout master
+  357  ls
+  358  checkout history
+  359  git checkout history
+  360  ls
+  361  history > history.txt
+  362  git add history.txt 
+  363  git commit -m "added history"
+  364  ls
+  365  git init
+  366  git branch
+  367  git checkout master
+  368  ls -a
+  369  cd git-basic-exercises/
+  370  git branch
+  371  git checkout master
+  372  ls
+  373  git checkout milkshake-flavours 
+  374  ls
+  375  git log
+  376  git checkout history
+  377  git log
+  378  git checkout master
+  379  get merge milkshake-flavours
+  380  git merge milkshake-flavours 
+  381  ls
+  382  rm history.txt
+  383  ls
+  384  git checkout milkshake-flavours 
+  385  ls
+  386  git checkout master
+  387  ls
+  388  rm milkshakes.md
+  389  ls
+  390  git checkout history
+  391  ls
+  392  cat README.md 
+  393  mkdir git-basic-exercises
+  394  cd git-basic-exercises/
+  395  git init
+  396  ls -a
+  397  git status
+  398  touch README.md
+  399  ls -a
+  400  git status
+  401  git log
+  402  git add README.md 
+  403  git status
+  404  git commit -m "initial commit"
+  405  git log
+  406  nano README.md 
+  407  cat README.md 
+  408  git status
+  409  git commit -m "second commit"
+  410  git add README.md 
+  411  git commit -m "second commit"
+  412  ls
+  413  nano README.md 
+  414  ~s
+  415  ls
+  416  nano README.md
+  417  cat README.md 
+  418  git add README.md 
+  419  git commit -m "third commit"
+  420  git log
+  421  git checkout 2e9c5eb6a13dc7389d91c0763f63d8b31caac930
+  422  cat README.md
+  423  git checkout master
+  424  cat README.md
+  425  git branch milkshake-flavours
+  426  git branch
+  427  cd milkshake-flavours
+  428  git checkout milkshake-flavours 
+  429  nano milkshakes.md
+  430  git status
+  431  git add milkshakes.md 
+  432  git commit -m "added intila flavours"
+  433  git log
+  434  git checkout master
+  435  git branch history
+  436  ls
+  437  git branch
+  438  git checkout history 
+  439  git log
+  440  history > history.txt
